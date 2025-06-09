@@ -1,0 +1,56 @@
+/* Chapter 2 */
+/* Box Model Padding and Margin */
+
+/* Padding Tutorial */
+h1{
+    border: 5px solid red;
+
+    /* There will be different padding on each of the four sides between the border and the content. */
+    /* Long Code */
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+
+    /* Short Code */
+    /* padding: Top Border, Right Border, Bottom Border, Left Border; */
+    padding: 50px 100px 50px 100px;
+
+    /* There will be equal padding on all four sides between the border and the content.  */
+    padding: 50px;
+
+    /* There will be equal padding on the top and bottom, and equal padding on the left and right between the border and the content. */
+    /* padding: Top Border and Bottom Border, Right Border and Left Border; */
+    padding: 100px 50px;
+}
+
+/* Margin Tutorial */
+h2{
+    border: 5px solid red;
+
+    /* There will be different margin on each of the four sides between the border and the content. */
+    /* Long Code */
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
+    /* Short Code */
+    /* margin: Top Border, Right Border, Bottom Border, Left Border; */
+    margin: 50px 100px 50px 100px;
+
+    /* There will be equal margin on all four sides between the border and the content.  */
+    margin: 50px;
+
+    /* There will be equal margin on the top and bottom, and equal margin on the left and right between the border and the content. */
+    /* margin: Top Border and Bottom Border, Right Border and Left Border; */
+    margin: 100px 50px;
+}
+
+/* Border Width and Center */
+h3{
+    border: 5px solid red;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}

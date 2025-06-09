@@ -1,0 +1,56 @@
+/* Chapter 2 */
+/* 13) Most Important Lacture Block Level Elements VS Inline Elements, Inline Block Elements Rules */
+
+/* Block-level elements take up the full width, and width and height can be assigned, and margin can also be assigned on all four sides. */
+h1, h2 {
+    border: 5px solid gray;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+    /* If you want to convert a block-level element into an inline element, you can use this CSS property: display: inline; */
+    display: inline;
+}
+
+/* Inline elements do not take up the full width; they take only as much as needed. Width and height cannot be assigned to them, and margin cannot be applied from the top or bottom, but margin can be applied from the left and right. */
+span, label {
+    border: 5px solid gray;
+    /* Is Work */
+    margin-right: 50px;
+    margin-left: 50px;
+
+    /* If you want to apply all block-level element rules to an inline element, you can convert the inline element into a block-level element by using this CSS property: display: block; */
+    display: block;
+
+    /* Is Not Work */
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* If you want to apply all block-level element rules to an inline element, one way is to convert the inline element into a block-level element and then apply all the block-level rules. But if you want your element to remain inline and still be able to apply all block-level element rules to it, then you can use this CSS property: display: inline-block; */ 
+.border{
+    border: 4px solid red;
+}
+.border a{
+    /* Is Work */
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* The inline elements whose content is only text do not follow the rules of block-level elements — such as width, height, margin-top, and margin-bottom. However, the <img> element is the only inline element on which all block-level element rules apply without needing to convert it to an inline-block or block element. */
+img{
+    width: 300px;
+    border: 4px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}

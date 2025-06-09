@@ -1,0 +1,35 @@
+/* Chpater 2 */
+/* Exercise 1 */
+
+/* Long Code and Wrong */
+.text-green {
+    color: green;
+}
+
+.main-container{
+    background: gray;
+}
+
+.blog-container{
+    background: rgb(211, 211, 211);
+}
+
+.high-light{
+    background-color: aqua;
+}
+
+/* Short Code and Correct */
+.main-container{
+    background: gray;
+}
+
+.main-container h1{
+    color: green;
+}
+
+.blog-container{
+    background: rgb(211, 211, 211);
+}
+.blog-container .high-light{
+    background: aqua;
+}

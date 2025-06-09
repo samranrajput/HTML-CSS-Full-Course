@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="index2.html" method="get"> 
+            <label for="username">User Name:</label>
+            <input type="text" id="username" name="username" placeholder="User Name" required> 
+            <br> <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password" required> 
+            <br> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <p>Select Your Gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <br> <br>
+            <select name="age-value-group" required>
+                <option disabled selected value="">Select Age</option>
+                <option value="age1">18</option>
+                <option value="age2">19</option>
+                <option value="age3">20</option>
+            </select>
+            <br> <br>
+            <label for="comment">Enter a Text:</label>
+            <textarea name="comment" id="comment" placeholder="Text Here" cols="50" rows="12" required></textarea>
+            <br> <br>
+            <label for="color">Choose Color:</label>
+            <input type="color" name="color" id="color" placeholder="Choose Color" required>
+            <br> <br>
+            <label for="date">Select Date:</label>
+            <input type="date" name="date" id="date" placeholder="Select Date" required>
+            <br> <br>
+            <label for="time">Select Time:</label>
+            <input type="time" name="time" id="time" placeholder="Select Time" required>
+            <br> <br>
+            <label for="datetime">Select Date and Time:</label>
+            <input type="datetime-local" name="datetime" id="datetime" placeholder="Select Date and Time" required>
+            <br> <br>
+            <label for="file">Select File:</label>
+            <input type="file" name="file" id="file" placeholder="Select File" required>
+            <br> <br>
+            <input type="submit" value="Sign In">
+        </form>
+    </body>
+</html>

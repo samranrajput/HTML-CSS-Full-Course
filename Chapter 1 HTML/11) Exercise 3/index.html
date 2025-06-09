@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercise 3</title>
+    </head>
+    <body>
+        <form action="index2.html" method="get" id="form">
+            <h1>Sign Up Form</h1>
+            <input type="text" id="username" name="username" placeholder="User Name" required> 
+            <br> <br>
+            <input type="password" id="password" name="password" placeholder="Password" required> 
+            <br> <br>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <p>Select Your Gender</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" required><br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" required><br>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other" required><br>
+            <br>
+            <select name="age-value-group" required>
+                <option disabled selected value="">Select Country</option>
+                <option value="age1">Pakistan</option>
+                <option value="age2">India</option>
+                <option value="age3">America</option>
+            </select>
+            <br> <br>
+            <input type="submit" value="Sign In">
+        </form>
+    </body>
+</html>

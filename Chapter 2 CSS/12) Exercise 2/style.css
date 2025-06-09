@@ -1,0 +1,30 @@
+/* Chapter 2 */
+/* Exercise 2 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+    width: 1300px;
+    margin: auto;
+}
+
+.main-container h2 {
+    margin: 0;
+    padding: 10px 0px;
+    text-align: center;
+    background: rgb(161, 161, 161);
+    
+}
+
+.main-container article {
+    border: 3px solid rgb(82, 82, 82);
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.main-container article h3 {
+    text-transform: uppercase;
+}

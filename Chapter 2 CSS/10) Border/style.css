@@ -1,0 +1,24 @@
+/* Chapter 2 */
+/* Border */
+
+h2{
+    /* Short Code */
+    border: 4px solid red;
+
+    /* Long Code */
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: red; */
+}
+
+p{
+    border-top: 8px dashed green;
+    border-bottom: 8px solid red;
+    border-left: 8px solid yellow;
+    border-right: 8px solid black;
+    border-radius: 10px;
+}
+
+span{
+    border: 3px solid brown;
+}

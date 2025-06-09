@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Most Important Lacture Block Level Elements VS Inline Elements, Inline Block Elements Rules</title>
+    </head>
+    <body>
+        <!-- 
+            1) Block Level Elements
+            2) Inline Elements
+            3) Inline Block Elements
+        -->
+
+        <!-- Block Level Elements VS Inline Elements -->
+        
+        <!-- ------------------------------------------------------------------- -->
+        <!--  Example of Block Level Elements:
+            <div>, <p>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <header>, <footer>, <section>, <article>, <nav>, <aside>, <main>, <address>, <blockquote>, <ul>, <ol>, <li>, <dl>, <dt>, <dd>, <form>, <fieldset>, <legend>, <table>, <hr>, <pre>
+        -->
+        <!-- ------------------------------------------------------------------- -->
+        
+
+        <!-- ------------------------------------------------------------------- -->
+        <!-- Example of Inline Elements: 
+            <span>, <a>, <b>, <strong>, <i>, <em>, <u>, <small>, <mark>, <del>, <ins>, <abbr>, <code>, <kbd>, <samp>, <var>, <sub>, <sup>, <br>, <img>, <input>, <label>, <select>, <textarea>, <button>, <time>, <cite>, <q>, <object>, <script>, <style>, <data>, <bdi>, <bdo>
+        -->
+        <!-- ------------------------------------------------------------------- -->
+        
+        <!-- If you want to convert a block-level element into an inline element, you can use this CSS property: display: inline; -->
+        <h1>This is Heading 1</h1>
+        <h2>This is Heading 2</h2>
+
+        <!-- If you want to apply all block-level element rules to an inline element, you can convert the inline element into a block-level element by using this CSS property: display: block; -->
+        <span>This is Span</span>
+        <label>This is Label</label>
+        
+        <!-- If you want to apply all block-level element rules to an inline element, one way is to convert the inline element into a block-level element and then apply all the block-level rules. But if you want your element to remain inline and still be able to apply all block-level element rules to it, then you can use this CSS property: display: inline-block; -->
+         <div class="border">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+        </div>
+
+        <!-- The inline elements whose content is only text do not follow the rules of block-level elements — such as width, height, margin-top, and margin-bottom. However, the <img> element is the only inline element on which all block-level element rules apply without needing to convert it to an inline-block or block element. -->
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+    </body>
+</html>

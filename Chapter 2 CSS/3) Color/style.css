@@ -1,0 +1,26 @@
+/* Chapter 2 */
+/* Color */
+
+/*  
+rgb:
+    rgb(first, center, end)
+    rgb(red, green, blue)
+    rgb(0 to 255, 0 to 255, 0 to 255)
+#Code:
+    #start, center, end
+    #red, green, blue
+    1 to 9, ato f
+    #1 to 9 a to f, 1 to 9 a to f, 1 to 9 a to f
+    length:5
+    example : #0362fc : red
+*/
+
+h1{
+    color: #0dff7e; 
+    
+}
+
+h2{
+    color: rgb(255, 0, 255);
+
+}

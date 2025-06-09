@@ -1,0 +1,30 @@
+/* Chapter 2 */
+/* Attribute Selector */
+
+input[type="text"]{
+    color: red;
+    background: black;
+}
+
+input[type="password"]{
+    background: aqua;
+}
+
+a[href = "https://g.co/kgs/gQTTgUj"]{
+    color: red;
+}
+
+/* Attribute Contains Selector */
+a[href *= "g"]{
+    color: red;
+}
+
+/* Attribute Starts With Selector */
+a[href ^= "https"]{
+    color: red;
+}
+
+/* Attribute Ends With Selector */
+a[href $= ".com"]{
+    color: red;
+}

@@ -1,0 +1,60 @@
+/* Chapter 2 */
+/* CSS Selectors */
+
+/* Universal Selector */
+/* *{
+    color: aqua;
+    background: rebeccapurple;
+} */
+
+/* Element Selector */
+h1{
+    color: red;
+}
+
+header{
+    background: gray;
+}
+
+/* Id Selector */
+#main-heading {
+    background-color: aqua;
+}
+
+/* Class Selector */
+.sub-heading {
+    background-color: gray;
+}
+
+/* Type Selector + Class Selector */
+section.my-article{
+    background: black;
+    color: white;
+}
+
+/* Descendant Selector */
+header p{
+    color: red;
+}
+
+header li a{
+    color: red;
+}
+
+article h2{
+    color: aqua;
+}
+
+/* Direct Child Selector */
+section.my-article > h2{
+    color: green;
+}
+
+/* Adjacent Sibling Selector */
+article h2+p{
+    color: red;
+}
+
+ul+p{
+    color: yellow;
+}

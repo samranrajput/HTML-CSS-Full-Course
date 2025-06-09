@@ -1,0 +1,13 @@
+/* Chapter 2 */
+/* Utility Classes */
+
+.text-red {
+    color: red;
+}
+.text-white {
+    color: white;
+}
+
+.bg-black {
+    background: black;
+}

@@ -1,0 +1,25 @@
+/* Chapter 2 */
+/* Calculate CSS Selectors Specificity */
+
+/* High Specificity >>>>>>>>> Low Specificity */
+/* !impotant > Inline Style Attribute > Id Selector > Element Selector.Class Selector, Class Selector  > Element Selector */
+
+/* Inline Style Attribute+Id Selector+Element Selector.Class Selector, Class Selector+Element Selector */
+/* 0+1+1+3 ---> 113 */
+/* Result: High Specificity */
+div#container ul.my-movies li{
+    color: blue;
+}
+
+/* 0+0+1+0 ----> 10 */
+/* Result: Low Specificity */
+/* But I want to increase its specificity. */
+.favorite{
+    color: aqua;
+}
+
+/* 0+1+2+3 ----> 123 */
+/* Result: High Specificity */
+div#container ul.my-movies li.favorite{
+    color: aqua;
+}

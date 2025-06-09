@@ -1,0 +1,30 @@
+/* Chapter 2 */
+/* CSS Selectors Specificity */
+
+/* High Specificity >>>>>>>>> Low Specificity */
+/* !impotant > Inline Style Attribute > Id Selector > Element Selector.Class Selector, Class Selector  > Element Selector */
+h1{
+    color: red;
+}
+/* Element Selector Most Low Specificity */
+/* Element Selector.Class Selector, Class Selector High Specificity */
+h1.h1class{
+    color: blue;
+}
+.h1class{
+    color: green;
+}
+/* Element Selector.Class Selector, Class Selector Low Specificity */
+/* Id Selector High Specificity */
+#h1id{
+    color: pink;
+}
+/* Id Selector Low Specificity */
+/* Inline Style Attribute High Specificity */
+/* Just Imagine Inline Style Attribute code....... */
+
+/* Inline Style Attribute Low Specificity */
+/* !impotant Most High Specificity */
+h1{
+    color: red !important;
+}
