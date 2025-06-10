@@ -1,0 +1,10 @@
+/* Chapter 2 */
+/* First of Type and Last of Type Pseudo Class */
+
+p:first-of-type{
+    color: blue;
+}
+
+p:last-of-type{
+    color: purple;
+}

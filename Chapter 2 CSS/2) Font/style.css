@@ -1,7 +1,27 @@
 /* Chapter 2 */
 /* Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
 body{
     font-family: "Roboto", sans-serif;
+}
+
+p{
+    /* Default Font Weight */
+    /* font-weight: normal;
+    font-weight: 400; */
+
+    /* Create Font Weight */
+    font-weight: bold;
+    font-weight: 700;
+}
+
+h1{
+    /* Default Font Weight */
+    /* font-weight: bold;
+    font-weight: 700; */
+
+    /* Create Font Weight */
+    /* font-weight: normal; */
+    font-weight: 100;
 }

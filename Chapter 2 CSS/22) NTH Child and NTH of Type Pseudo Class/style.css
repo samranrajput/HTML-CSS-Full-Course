@@ -1,0 +1,44 @@
+/* Chapter 2 */
+/* NTH Child and NTH of Type Pseudo Class */
+
+/* With the help of nth-child or nth-of-type, you can apply CSS to any child of a parent element. */
+p:nth-child(2){
+   color: red; 
+}
+
+/* Even Order */
+p:nth-child(2n){
+   color: red; 
+}
+
+/* Odd Order */
+p:nth-child(2n+1){
+   color: red; 
+}
+
+p:nth-of-type(2){
+   color: green 
+}
+
+/* Even Order */
+p:nth-of-type(2n){
+   color: green 
+}
+
+/* Odd Order */
+p:nth-of-type(2n+1){
+   color: green 
+}
+
+/* Practical Example */
+/* Even Order */
+ul li:nth-of-type(2n){
+    color: red;
+    background: black;
+}
+
+/* Odd Order */
+ul li:nth-of-type(2n+1){
+    color: red;
+    background: black;
+}

@@ -1,0 +1,10 @@
+/* Chapter 2 */
+/* First Child and last Child pseudo Class */
+
+p:first-child{
+    color: red;
+}
+
+p:last-child{
+    color: green;
+}

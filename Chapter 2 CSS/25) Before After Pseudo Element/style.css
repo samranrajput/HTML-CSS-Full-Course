@@ -1,0 +1,12 @@
+/* Chapter 2 */
+/* Before After Pseudo Element */
+
+p::before{
+    content: "Hello ";
+    color: red;
+}
+
+p::after{
+    content: " By";
+    color: green;
+}

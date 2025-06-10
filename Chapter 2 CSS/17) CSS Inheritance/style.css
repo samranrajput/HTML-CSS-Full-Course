@@ -1,0 +1,21 @@
+/* Chapter 2 */
+/* CSS Inheritance */
+
+
+body{
+    color: red;
+}
+
+.box1{
+    color: blue;
+}
+
+.box2{
+    color: aqua;
+}
+
+/* Not Change body Color */
+a{
+    color: red;
+    text-decoration: none;  
+}

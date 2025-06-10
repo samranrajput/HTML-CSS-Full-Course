@@ -1,0 +1,60 @@
+/* Chapter 2 */
+/* Text Properties */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.line-spacing-container h1{
+    /* Long Code */
+    /* Line properties */
+    /* text-decoration-line: overline; */
+    /* text-decoration-line: line-through; */
+    /* text-decoration-line: underline; */
+
+    /* Color Properties */
+    /* text-decoration-color: red; */
+
+    /* style properties */
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: double; */
+    /* text-decoration-style: wavy; */
+    /* text-decoration-style: solid; */
+
+    /* Short Code */
+    text-decoration: underline solid red;
+}
+
+.word-spacing-container h1{
+    text-decoration: underline wavy blue;
+}
+
+.letter-spacing-container h1{
+    text-decoration: overline dashed green;
+}
+
+.line-spacing-container h2{
+    text-decoration: line-through dotted brown;
+}
+
+.word-spacing-container h2{
+    text-decoration: line-through dotted blue;
+}
+
+.letter-spacing-container h2{
+    text-decoration: overline dashed green;
+}
+
+.line-spacing-container p{
+    line-height: 40px;
+}
+
+.word-spacing-container p{
+    word-spacing: 30px;
+}
+
+.letter-spacing-container p{
+    letter-spacing: 20px;
+}

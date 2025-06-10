@@ -1,0 +1,7 @@
+/* Chapter 2 */
+/* Default Browser Styling and Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}

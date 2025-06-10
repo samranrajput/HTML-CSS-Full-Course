@@ -1,0 +1,38 @@
+/* Chapter 2 */
+/* Pseudo Classes */
+
+/* link, visited,hove, active */
+.link:link{
+    color: red;
+}
+
+.visited:visited{
+    color: green;
+}
+
+.hover:hover{
+    color: blue;
+}
+
+.active:active{
+    color: pink;
+}
+
+p:hover{
+    color: brown;
+}
+
+p:active{
+    background: gray;
+}
+
+input:focus{
+    padding: 10px;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+input:required{
+    border: 2px solid red;
+}

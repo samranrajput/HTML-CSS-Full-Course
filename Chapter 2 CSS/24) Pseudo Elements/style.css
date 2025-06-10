@@ -1,0 +1,17 @@
+/* Chapter 2 */
+/* Pseudo Elements */
+
+p::first-letter{
+    font-size: 40px;
+    color: red;
+    background: aqua;
+}
+
+p::first-line{
+    background: aqua;
+}
+
+p::selection{
+    background: black;
+    color: white;
+}
