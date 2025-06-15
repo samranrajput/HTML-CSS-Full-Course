@@ -1,0 +1,21 @@
+/* Chapter 3 */
+/* REM VS EM VS PX */
+
+/* For font size, you should use rem. */
+/* For border, you should use px. */
+/* For margin & padding, you should use em. */
+/* Because using it makes it easier for us to make the website responsive. */
+
+:root{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 3.2rem;
+    border: 4px solid red;
+    padding: 1em;
+}
+
+p{
+    font-size: 1.6rem;
+}

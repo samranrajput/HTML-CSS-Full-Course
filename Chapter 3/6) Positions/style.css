@@ -1,0 +1,64 @@
+/* Chapter 3 */
+/* Positions */
+
+/* 
+    Static Position
+    Relative Position
+    Absolute Position
+    Fixed Position
+    Sticky Position
+    z-index Position
+*/
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+.container{
+    font-size: 1.6rem;
+    /* height: 600px; */
+    width: 50%;
+    border: 0.5em solid green;
+    /* position: relative; */
+}
+
+.container h1{
+    position: sticky;
+    top: 10px;
+    border: 0.2em solid red;
+    background: rgb(255, 255, 115);
+    /* position: static; */
+    /* position: relative; */
+    /* top: 50%;
+    left: 50%; */
+    /* z-index: -1; */
+    /* position: absolute;
+    transform: translate(-50%, -50%); */
+    /* right: 0; */
+}
+
+.container h3{
+    /* margin-top: 80px; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* display: block; */
+    background: black;
+    color: white;
+}
+
+.container p{
+    border: 0.3em solid purple;
+    background: gray;
+}
+
+p{
+    font-size: 1.6rem;
+}

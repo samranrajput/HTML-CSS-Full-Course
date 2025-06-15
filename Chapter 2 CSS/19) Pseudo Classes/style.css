@@ -26,6 +26,10 @@ p:active{
     background: gray;
 }
 
+p:active{
+    background: gray;
+}
+
 input:focus{
     padding: 10px;
     outline: none;

@@ -1,0 +1,68 @@
+/* Chapter 3 */
+/* Relative Unit */
+
+/* Persentage Unit */
+/* In a browser, the default font size of the root HTML element is usually 16 pixels. When we use 100%, it refers to this default size. So, if no changes are made, 100% = 16px. */
+:root{
+    font-size: 10px;
+}
+
+div{
+    border: 5px solid red;
+    font-size: 20px;
+    width: 50%;
+}
+
+h1{
+    font-size: 180%;
+    font-size: 1rem;
+    font-size: 1em;
+}
+p{
+    border: 5px solid green;
+    width: 50%;
+    font-size: 180%;
+    margin-left: 25%;
+}
+
+/* Rem Unit */
+/* In a browser, the default font size of the root HTML element is usually 16 pixels. When we use 1rem, it refers to this default size. So, if no changes are made, 1rem = 16px. */
+:root{
+    font-size: 10px;
+    font-size: 62.5%;
+}
+div{
+    font-size: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 3rem;
+    border: 0.5rem solid red;
+    margin: 5rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+/* Em Unit */
+/* In a browser, the default font size of the root HTML element is usually 16 pixels. The browser sets a default size for each element — for example, a paragraph (<p>) usually has a font size of 16 pixels, while a heading (<h1>) can be 32 pixels or more. When we use 1em, it refers to the font size of the element it is used within. If the font size hasn't been manually changed, then 1em = 16px. */
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+}
+
+div{
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+h1{
+    font-size: 2em;
+    
+    border: 4em solid red;
+    padding: 5em;
+    width: 50%;
+}

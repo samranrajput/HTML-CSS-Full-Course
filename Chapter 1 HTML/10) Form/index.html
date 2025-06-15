@@ -49,6 +49,18 @@
             <label for="file">Select File:</label>
             <input type="file" name="file" id="file" placeholder="Select File" required>
             <br> <br>
+            <p id="emoji" style="font-size: 100px;">🥺</p>
+            <input 
+            type="range" 
+            name="range" 
+            id="range" 
+            min="0" 
+            max="24" 
+            value="0" 
+            required
+            oninput="emoji.innerText = ['😩', '😫', '😖', '😣', '☹️','🙁','😕','😟','😔','😞','😌','🙂','😇','☺️','😊','😃','😄','😁','😅','😂','🤣','😛','😝'
+            ,'😝','🤪'][this.value]">
+            <br> <br>
             <input type="submit" value="Sign In">
         </form>
     </body>
