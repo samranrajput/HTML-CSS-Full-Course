@@ -1,0 +1,21 @@
+/* @media print{
+    body{
+        color: blue;
+    }
+
+    p{
+        display: none;
+    }
+} */
+
+/* @media screen and (max-width: 500px){
+    body{
+        color: aqua;
+    }
+} */
+
+@media all and (max-width: 500px){
+    body{
+        color: yellow;
+    }
+}
