@@ -1,0 +1,46 @@
+/* Align Self */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-wrapper{
+    border: 3px solid black;
+    height: 400px;
+
+    /* Flex Box */
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-wrapper .box{
+    border: 3px solid #666;
+    width: 400px;
+}
+
+.box-wrapper .box1{
+    background: lightblue;
+    align-self: self-start;
+}
+
+/* Align Self */
+.box-wrapper .box2{
+    background: lightcoral;
+    /* align-self: stretch; default */
+    align-self: self-center;
+    /* align-self: self-end; */
+}
+
+.box-wrapper .box3{
+    background: lightgray;
+    align-self: self-end;
+}
+
+.box-wrapper .box4{
+    background: lightsalmon;
+}
+
+.box-wrapper .box5{
+    background: lightslategray;
+}

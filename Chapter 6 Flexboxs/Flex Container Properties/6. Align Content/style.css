@@ -1,0 +1,49 @@
+/* Align Content */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-wrapper{
+    border: 3px solid black;
+    height: 500px;
+
+    /* Flex Box */
+    display: flex;
+
+    /* Flex Wrap */
+    flex-wrap: wrap;
+    
+    /* Align Content */
+    /* Working Cross Axis */
+    /* align-content: stretch;  */ /* Default */
+    align-content: center;
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+}
+
+.box-wrapper .box{
+    border: 3px solid #666;
+    width: 300px;
+}
+
+.box-wrapper .box1{
+    background: lightblue;
+}
+
+.box-wrapper .box2{
+    background: lightcoral;
+}
+
+.box-wrapper .box3{
+    background: lightgray;
+}
+
+.box-wrapper .box4{
+    background: lightsalmon;
+}
+
+.box-wrapper .box5{
+    background: lightslategray;
+}

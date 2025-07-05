@@ -1,0 +1,44 @@
+/* Order */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-wrapper{
+    border: 3px solid black;
+    height: 400px;
+
+    /* Flex Box */
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-wrapper .box{
+    border: 3px solid #666;
+    width: 400px;
+}
+
+/* Order */
+.box-wrapper .box1{
+    background: lightblue;
+    order: 1;
+}
+
+.box-wrapper .box2{
+    background: lightcoral;
+    order: 3;
+}
+
+.box-wrapper .box3{
+    background: lightgray;
+    order: 0;
+}
+
+.box-wrapper .box4{
+    background: lightsalmon;
+}
+
+.box-wrapper .box5{
+    background: lightslategray;
+}

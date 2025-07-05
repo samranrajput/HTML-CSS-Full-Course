@@ -1,0 +1,45 @@
+/* Justify Content */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-wrapper{
+    border: 3px solid black;
+
+    /* Flex Box */
+    display: flex;
+    
+    /* Justify Content */
+    /* Working Main Axis */
+    /* justify-content: flex-start; */ /* Default */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+}
+
+.box-wrapper .box{
+    border: 3px solid #666;
+    width: 200px;
+}
+
+.box-wrapper .box1{
+    background: lightblue;
+}
+
+.box-wrapper .box2{
+    background: lightcoral;
+}
+
+.box-wrapper .box3{
+    background: lightgray;
+}
+
+.box-wrapper .box4{
+    background: lightsalmon;
+}
+
+.box-wrapper .box5{
+    background: lightslategray;
+}

@@ -1,0 +1,39 @@
+/* Flex Basis */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-wrapper{
+    border: 3px solid black;
+
+    /* Flex Box */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+/* Flex Basis */
+.box-wrapper .box{
+    border: 3px solid #666;
+    flex-basis: 500px;
+}
+
+.box-wrapper .box1{
+    background: lightblue;
+}
+
+.box-wrapper .box2{
+    background: lightcoral;
+}
+
+.box-wrapper .box3{
+    background: lightgray;
+}
+
+.box-wrapper .box4{
+    background: lightsalmon;
+}
+
+.box-wrapper .box5{
+    background: lightslategray;
+}

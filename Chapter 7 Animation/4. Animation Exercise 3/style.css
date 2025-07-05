@@ -1,0 +1,38 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    /* animation-name: shap-and-color-change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+    
+    animation: shap-and-color-change 5s infinite ease-in-out;
+}
+
+@keyframes shap-and-color-change{
+    0% {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 0;
+    }
+    25% {
+        width: 600px;
+        height: 200px;
+        background-color: green;
+        border-radius: 0;
+    }
+    50% {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        border-radius: 100px;
+    }
+    75% {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 0;
+    }
+}

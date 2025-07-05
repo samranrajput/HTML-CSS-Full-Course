@@ -1,0 +1,49 @@
+/* Flex Shrink */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-wrapper{
+    border: 3px solid black;
+    /* max-width: 1200px; */
+
+    /* Flex Box */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+/* Flex Basis */
+.box-wrapper .box{
+    border: 3px solid #666;
+    /* flex-basis: 300px; */
+    /* flex-shrink: 1; */
+    margin: 10px;
+    flex: 2 300px;
+}
+
+.box-wrapper .box1{
+    background: lightblue;
+    /* flex: 0 1 600px; */
+    /* flex-shrink: 1; */
+}
+
+.box-wrapper .box2{
+    background: lightcoral;
+    /* flex: 0 2 600px; */
+    /* flex-shrink: 2; */
+}
+
+.box-wrapper .box3{
+    background: lightgray;
+    /* flex: 0 3 600px; */
+    /* flex-shrink: 3; */
+}
+
+.box-wrapper .box4{
+    background: lightsalmon;
+}
+
+.box-wrapper .box5{
+    background: lightslategray;
+}

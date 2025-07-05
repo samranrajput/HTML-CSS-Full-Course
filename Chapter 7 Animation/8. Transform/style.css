@@ -1,0 +1,77 @@
+/* Rotate Property using Animation Property*/
+.rotate-animation-property{
+    width: 100px;
+    height: 100px;
+    background: red;
+    font-size: 1.5rem;
+    margin: 100px auto;
+    animation: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* Rotate Property using Transition Property */
+.rotate-transition-property{
+    width: 100px;
+    height: 100px;
+    background: red;
+    font-size: 1.5rem;
+    margin: 100px auto;
+    transition: transform 1s ease-in-out;
+}
+
+.rotate-transition-property:hover{
+    transform: rotate(-180deg);
+}
+
+/* Scale Property using Animation Property */
+.scale-animation-property{
+    width: 100px;
+    height: 100px;
+    background: red;
+    font-size: 1.5rem;
+    margin: 100px auto;
+    animation: scale;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scale{
+    from{
+        transform: scale(1);
+        /* transform: scaleX(1); */
+        /* transform: scaleY(1); */
+    }
+    to{
+        transform: scale(2);
+        /* transform: scaleX(2); */
+        /* transform: scaleY(2); */
+    }
+}
+
+/* Scale Property using Transition Property */
+.scale-transition-property{
+    width: 100px;
+    height: 100px;
+    background: red;
+    font-size: 1.5rem;
+    margin: 100px auto;
+    transition: transform 1s linear;
+}
+
+.scale-transition-property:hover{
+    transform: scale(2);
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+}

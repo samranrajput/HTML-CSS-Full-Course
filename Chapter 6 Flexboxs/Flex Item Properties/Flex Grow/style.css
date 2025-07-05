@@ -1,0 +1,41 @@
+/* Flex Grow */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-wrapper{
+    border: 3px solid black;
+    width: 1200px;
+
+    /* Flex Box */
+    display: flex;
+}
+
+/* Flex Basis */
+.box-wrapper .box{
+    border: 3px solid #666;
+    flex-basis: 300px;
+}
+
+.box-wrapper .box1{
+    background: lightblue;
+    flex-grow: 3;
+}
+
+.box-wrapper .box2{
+    background: lightcoral;
+    flex-grow: 1;
+}
+
+.box-wrapper .box3{
+    background: lightgray;
+    flex-grow: 1;
+}
+
+.box-wrapper .box4{
+    background: lightsalmon;
+}
+
+.box-wrapper .box5{
+    background: lightslategray;
+}

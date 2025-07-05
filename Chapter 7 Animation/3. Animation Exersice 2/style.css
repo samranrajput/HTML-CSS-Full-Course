@@ -1,0 +1,48 @@
+/* Animation Exercise 1 */
+.ball1{
+    width:  10px;
+    height: 10px;
+    background: red;
+    border-radius: 30px;
+    position: relative;
+    /* animation-name: moving-ball1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    animation: moving-ball1 0.5s infinite alternate;
+}
+
+.ball2{
+    width:  10px;
+    height: 10px;
+    background: blue;
+    border-radius: 30px;
+    position: absolute;
+    top: 8px;
+    /* animation-name: moving-ball2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    animation: moving-ball2 0.5s infinite alternate;
+}
+
+@keyframes moving-ball1{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 20px;
+        z-index: 1;
+    }
+}
+
+@keyframes moving-ball2{
+    from{
+        left: 20px;
+    }
+    to{
+        left: 0px;
+    }
+}

@@ -1,0 +1,19 @@
+/* Animation Exercise 1 */
+.box{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    /* animation-name: box-opacity;
+    animation-duration: 5s; */
+
+    animation: box-opacity 5s;
+}
+
+@keyframes box-opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
