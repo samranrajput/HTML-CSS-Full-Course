@@ -1,0 +1,54 @@
+section{
+    display: flex;
+    margin: 100px 150px;
+}
+
+.img-box{
+    width: 500px;
+    height: 200px;
+    padding: 50px 12px;
+    border-bottom: 3px dashed black;
+}
+
+.img1, .img3{
+    animation: img-one-and-two-animate 1s infinite alternate-reverse linear;
+}
+
+@keyframes img-one-and-two-animate{
+    from{
+        
+    }
+    to{
+        transform: skewY(30deg);
+    }
+}
+
+.img2, .img4{
+    animation: img-three-and-four-animate 1s infinite alternate-reverse linear;
+}
+
+@keyframes img-three-and-four-animate{
+    from{
+        
+    }
+    to{
+        transform: skewY(-30deg);
+        padding-bottom: 40px;
+        margin-top: 10px;
+    }
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    margin: auto;
+}

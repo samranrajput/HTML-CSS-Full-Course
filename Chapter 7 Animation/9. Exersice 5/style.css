@@ -1,0 +1,33 @@
+.circle{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 50%;
+    border-left: 300px solid yellow;
+    top: 150px;
+    position: relative;
+    animation: rotate-circle 0.1s linear infinite;
+}
+
+@keyframes rotate-circle{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.needle{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom center;
+    border: 5px solid red;
+    height: 275px;
+    animation: rotate-needle 0.1s linear infinite;
+}
+
+@keyframes rotate-needle{
+    to{
+        transform: rotate(360deg);
+    }
+}

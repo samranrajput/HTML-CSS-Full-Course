@@ -40,7 +40,6 @@ h1, h2, h3{
 .container{
     width: 80%;
     margin: 0 auto;
-
 }
 
 .lg-heading{
@@ -648,3 +647,4 @@ header{
         margin-bottom: 0.3em;
     }
 }
+
