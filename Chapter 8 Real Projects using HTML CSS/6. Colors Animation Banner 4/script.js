@@ -31,7 +31,7 @@ const canvas = document.getElementById('sparkleCanvas');
       for (let p of particles) {
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 255, 255, ${p.opacity})`;
+        ctx.fillStyle = `rgba(6, 1, 33, ${p.opacity})`;
         ctx.shadowBlur = 15;
         ctx.shadowColor = "#ffffff";
         ctx.fill();

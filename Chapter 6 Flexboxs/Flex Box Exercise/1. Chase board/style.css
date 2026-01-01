@@ -1,56 +1,65 @@
 /* Chase Board */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
 }
 
-h1{
-    font-size: 3.2rem;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 2rem;
+h1 {
+  font-size: 3.2rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.chase-board-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
+.chase-board-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border: 2px solid red;
 }
 
-.chase-board-section .chase-board{
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    border: 30px ridge #00b27a;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+.chase-board-section .chase-board {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 20px ridge #00b27a;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.chase-board-section .chase-board .chase-row{
-    display: flex;
+.chase-board-section .chase-board .chase-row {
+  display: flex;
 }
 
 .chase-board-section .chase-board .chase-row .box-light,
-.chase-board-section .chase-board .chase-row .box-dark{
+.chase-board-section .chase-board .chase-row .box-dark {
+  aspect-ratio: 1/1;
+  width: calc(30vw / 7);
+}
+
+.chase-board-section .chase-board .chase-row .box-light {
+  background: #eee;
+}
+
+.chase-board-section .chase-board .chase-row .box-dark {
+  background: #444;
+}
+
+@media (max-width: 450px) and (orientation: portrait) {
+  .chase-board-section .chase-board .chase-row .box-light,
+  .chase-board-section .chase-board .chase-row .box-dark {
     aspect-ratio: 1/1;
-    width: calc(30vw / 8);
-}
-
-.chase-board-section .chase-board .chase-row .box-light{
-    background: #eee;
-}
-
-.chase-board-section .chase-board .chase-row .box-dark{
-    background: #444;
+    width: calc(30vw / 3);
+  }
 }

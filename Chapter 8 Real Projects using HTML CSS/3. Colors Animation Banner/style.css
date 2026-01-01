@@ -1,17 +1,19 @@
-html,body {
+/* html,body {
   margin:0;
   padding:0;
   width:100%;
   height:100%;
   overflow:hidden;
-}
+} */
 #gradient-canvas {
   width:100%;
-  height:80%;
-  --gradient-color-1: #fff; 
-  --gradient-color-2: #000; 
-  --gradient-color-3: #7038ff;  
-  --gradient-color-4: #ffba27;
+  height:100vh;
+  /* #fff, #BCC8B2, #90A47F */
+  --gradient-color-1: #BCC8B2; 
+  --gradient-color-2: #90A47F; 
+  --gradient-color-3: #BCC8B2;
+  --gradient-color-4: #90A47F;
+  /* border-top: 50vmin solid var(--gradient-color-2); */
   z-index:0;
 }
 
@@ -20,7 +22,6 @@ h1{
   font-weight: 800;
   font-size:4rem;
   color: #343434;
-  /* color: black; */
   position:absolute;
   padding: 2rem;
   top:0px;
